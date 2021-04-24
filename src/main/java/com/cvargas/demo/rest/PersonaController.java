@@ -7,6 +7,7 @@ import java.util.Optional;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
+import org.springframework.web.bind.annotation.CrossOrigin;
 import org.springframework.web.bind.annotation.DeleteMapping;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
@@ -19,8 +20,12 @@ import org.springframework.web.bind.annotation.RestController;
 import com.cvargas.demo.dao.PersonDao;
 import com.cvargas.demo.entitys.Person;
 
-
-
+/**
+ * Lo dejamos con CORS libre para que cualquiera pueda entrar a ver el proyecto, esto por que lo hice en local y estoy usando AJAX
+ * @author crist
+ *
+ */
+@CrossOrigin(origins = "*")
 @RestController
 @RequestMapping("personas")
 public class PersonaController {
