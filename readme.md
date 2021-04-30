@@ -2,6 +2,7 @@
   - [Realizado por: Cristhian Andres Vargas Cuero](#realizado-por-cristhian-andres-vargas-cuero)
     - [Back-end](#back-end)
     - [Front-end](#front-end)
+    - [Documentacion](#documentacion)
 
 # Prueba Práctica - Backend Developer
 ## Realizado por: Cristhian Andres Vargas Cuero
@@ -19,3 +20,11 @@
 - La mayor parte del codido JS esta Vanilla, nos apoyamos de Jquery para el manejo con Datatable en la consulta de las personas
 - El HTML y CSS estan con bootstrap 5
 - Trabajamos con CDN para mayor velocidad en el desarrollo
+
+### Documentacion
+
+Esta documentación usa Swagger2
+
+[JSON](http://localhost:8080/v2/api-docs)
+
+[HYML](http://localhost:8080/swagger-ui.html)
